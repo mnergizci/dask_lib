@@ -2,3 +2,4 @@
 
 dask.dataframe as dd
 
+Dask dataframe is a large-scale parallel dataframe composed of many smaller pandas dataframes split along the index. Its designed to enable parallel and distributed computing on large datasets that many not fit inot memory. Dask dataframe offer a familiar interface to pandas dataframes but are capable of scaling to larger than memory dataset by splitting computations across multiple cores or even multiple machines. The
